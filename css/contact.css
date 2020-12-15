@@ -1,0 +1,118 @@
+.kontakt-talentsearch {
+    background: url("../images/galerija6.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 80px;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 24px;
+    padding-bottom: 80px;
+}
+
+.kontakt-sadrzaj {
+    display: flex;
+}
+
+.kontakt-info {
+    width: 50%;
+}
+
+.kontakt-info p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.kontakt-forma {
+    width: 100%;
+}
+
+.kontakt-forma form {
+    background: #164D56;
+    min-height: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.kontakt-forma input,
+textarea,
+select {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color:
+    #111921;;
+    background-color:
+        #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+textarea {
+    height: auto;
+}
+
+.kontakt-forma label {
+    display: block;
+    color: #fff;
+}
+
+.kontakt-forma button {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #111921;
+    color: #fff;
+}
+
+.poruka-poslata{
+    animation: slideIn 0.7s forwards;
+}
+
+
+
+@keyframes slideIn{
+    from{
+        transform: translateY(-50%);
+        /* providnost, transparentnost */
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@media screen and (max-width: 575.98px) {
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .kontakt-sadrzaj {
+        display: block;
+    }
+
+    .kontakt-forma form {
+        margin-left: 0;
+    }
+
+    .flip-clock-wrapper ul{
+        width: 8px;
+        margin: 1px;
+    }
+
+    .inn{
+        font-size: 32px !important;
+    }
+    
+    .o-nama h2 {
+        font-size: 2rem;
+    }
+    
+}
